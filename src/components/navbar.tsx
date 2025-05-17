@@ -33,10 +33,10 @@ const Navbar: React.FC = () => {
       {/* Mobile Menu */}
       {open && (
         <div className="md:hidden bg-[#181A1B] border-t border-[#232526] px-4 pb-4">
-          <Link href="/" className="block py-2 text-gray-300 hover:text-white">Home</Link>
-          <Link href="/services" className="block py-2 text-gray-300 hover:text-white">Services</Link>
-          <Link href="/contact" className="block py-2 text-gray-300 hover:text-white">Contact</Link>
-          <Link href="/about" className="block py-2 text-gray-300 hover:text-white">About</Link>
+          <Link href="/" className="block py-2 text-gray-300 hover:text-white" onClick={() => setOpen(false)}>Home</Link>
+          <Link href="/services" className="block py-2 text-gray-300 hover:text-white" onClick={() => setOpen(false)}>Services</Link>
+          <Link href="/contact" className="block py-2 text-gray-300 hover:text-white" onClick={() => setOpen(false)}>Contact</Link>
+          <Link href="/about" className="block py-2 text-gray-300 hover:text-white" onClick={() => setOpen(false)}>About</Link>
         </div>
       )}
     </nav>

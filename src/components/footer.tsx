@@ -16,15 +16,15 @@ const Footer: React.FC = () => (
         >
           <polygon
             points="18,2 6,18 15,18 14,30 26,14 17,14"
-            fill="#1EA7FF"
-            stroke="#1EA7FF"
+            fill="#a3a3a3" // gray-400
+            stroke="#a3a3a3"
             strokeLinejoin="round"
             strokeWidth="2"
           />
         </svg>
         <span className="font-bold text-lg">
           <span className="text-gray-200">Site</span>
-          <span className="text-[#1EA7FF]">Spark</span>
+          <span className="text-gray-400">Spark</span>
         </span>
         <span className="ml-4 text-sm text-gray-500">
           &copy; {new Date().getFullYear()} SiteSpark. All rights reserved.
@@ -32,10 +32,10 @@ const Footer: React.FC = () => (
       </div>
       {/* Right: Footer Links */}
       <div className="flex space-x-6">
-        <Link href="/" className="hover:text-[#1EA7FF] transition">Home</Link>
-        <Link href="/services" className="hover:text-[#1EA7FF] transition">Services</Link>
-        <Link href="/contact" className="hover:text-[#1EA7FF] transition">Contact</Link>
-        <Link href="/about" className="hover:text-[#1EA7FF] transition">About</Link>
+        <Link href="/" className="hover:text-gray-200 transition">Home</Link>
+        <Link href="/services" className="hover:text-gray-200 transition">Services</Link>
+        <Link href="/contact" className="hover:text-gray-200 transition">Contact</Link>
+        <Link href="/about" className="hover:text-gray-200 transition">About</Link>
       </div>
     </div>
   </footer>
