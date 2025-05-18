@@ -72,7 +72,7 @@ const services = [
 ];
 
 const Services = () => (
-  <div className="min-h-screen bg-[#181A1B] text-gray-200 flex flex-col items-center px-4 py-12">
+  <div className="min-h-screen bg-[#181A1B] text-gray-200 flex flex-col items-center px-4 py-12 mt-12">
     <h1 className="text-4xl font-bold mb-4 text-center">Our Services</h1>
     <p className="text-gray-400 mb-10 text-center max-w-2xl">
       SiteSpark offers a full suite of web development services to help your business shine online. From custom builds to ongoing support, we deliver modern solutions for online sellers.

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Contact = () => (
-  <div className="min-h-screen bg-[#181A1B] flex flex-col items-center justify-center px-4 py-12">
+  <div className="min-h-screen bg-[#181A1B] flex flex-col items-center justify-center px-4 py-12 mt-12">
     <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-200 mb-4 text-center">
       Contact Us
     </h1>
